@@ -11,7 +11,8 @@ This program provides a terminal-based SSH connection manager written in C++. It
 - sshpass (install with brew install sshpass on macOS or sudo apt install sshpass on Linux)
 - g++ (for compilation)
 
-Clone the repository.
+Clone the repository. {^}
+
 2.	Compile the code:
 
      g++ ssh_manager.cpp -o ssh_manager

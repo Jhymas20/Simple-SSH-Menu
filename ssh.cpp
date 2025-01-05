@@ -36,7 +36,7 @@ void displayMenu() {
 
 // Main program logic
 int main() {
-    string password = "Hyma1491$$";  // Replace with your SSH password
+    string password = "YOUR_PASSWORD";  // Replace with your SSH password
     int choice;
 
     do {
@@ -45,16 +45,16 @@ int main() {
 
         switch (choice) {
             case 1:
-                connectToServer("yeti@infinitevoid", password);
+                connectToServer("USR_NAME@infinitevoid", password);
                 break;
             case 2:
-                connectToServer("yeti@infinitevoidremote", password);
+                connectToServer("USR_NAME@infinitevoidremote", password);
                 break;
             case 3:
-                connectToServer("yeti@raspberrypi", password);
+                connectToServer("USR_NAME@raspberrypi", password);
                 break;
             case 4:
-                connectToServer("yeti@raspberrypi5", password);
+                connectToServer("USR_NAME@raspberrypi5", password);
                 break;
             case 5: {
                 string customServer;
